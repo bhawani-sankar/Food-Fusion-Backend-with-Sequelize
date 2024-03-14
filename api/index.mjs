@@ -4,9 +4,9 @@ import cors from "cors";
 import bcript from "bcryptjs";
 import jwt from "jsonwebtoken";
 import Razorpay from "razorpay";
-import "./model/conn.js";
-import { Address, food, foodOrder, sequelize, user } from "./model/conn.js";
-import { authToken } from "./middleware/auth.js";
+import "./model/conn.mjs";
+import { Address, food, foodOrder, sequelize, user } from "./model/conn.mjs";
+import { authToken } from "./middleware/auth.mjs";
 
 
 const app = express();
