@@ -7,7 +7,7 @@
   "scripts": {
     "start": "vercel dev",
     "deploy": "vercel deploy --prod",
-    "dev": "node ./api/index.mjs"               
+    "dev": "node /api/index.mjs"               
   },
   "keywords": [],
   "author": "",
