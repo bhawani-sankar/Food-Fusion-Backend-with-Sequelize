@@ -237,4 +237,4 @@ app.get("/v1/food/orders",async(req,res)=>{
 // app.listen(port, () => {
 //   console.log(`server run at http://localhost:${port}`);
 // });
-expo
+export default app;
