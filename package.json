@@ -7,7 +7,7 @@
   "scripts": {
     "start": "vercel dev",
     "deploy": "vercel deploy --prod",
-    "dev": "node ./api/index.mjs"               
+    "dev": "nodemon ./api/poll.mjs"
   },
   "keywords": [],
   "author": "",
@@ -22,5 +22,8 @@
     "mysql2": "^3.9.2",
     "razorpay": "^2.9.2",
     "sequelize": "^6.37.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
   }
 }
